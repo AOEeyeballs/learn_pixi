@@ -12,6 +12,7 @@ bunny.y = app.screen.height / 2;
 bunny.on("pointerdown", (event) => {
   console.log("FAT bunnay!")
   bunny.scale.x *= 1.25;
+  bunny.scale.y *= 1.25;
 });
 
 let elapsed = 0.0;
